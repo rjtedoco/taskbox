@@ -10,7 +10,7 @@ jobs:
         with:
           fetch-depth: 0
       - run: yarn
-      - uses: chromatic/action@v1
+      - uses: chromaui/action@v1
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN}}
           token: ${{ secrets.GITHUB_TOKEN}}
